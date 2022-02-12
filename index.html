@@ -6,37 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <label for="">nombres y apellidos</label><br><br>
-    <input placeholder="ingrese tu nombre comleto" type="text"><br><br>
-    <label for="">tipo de documento</label><br><br>
-    <select name="documento" id="">
-        <option value="documento">------Seleccione-------</option>
-        <option value="documento">Cedula de Ciudadania</option>
-        <option value="documento">Cedula de Extranjeria</option>
-        <option value="documento">Tarjeta de identidad</option>
-        <option value="documento">NIT</option>
-
-    </select><br><br>
-    <label for="">Numero de documento</label><br><br>
-    <input type="number"><br><br>
+    <div class="contenedor">
+        
     
-    <label for="">Correo Electronico</label><br><br>
-    <input type="email"><br><br>
+        <div class="nombres">
+            <label for="">nombres y apellidos</label><br><br>
+            <input placeholder="ingrese tu nombre comleto" type="text"><br><br>
+        </div>
+        <div class="cedula"><label for="">tipo de documento</label><br><br>
+            <select name="documento" id="">
+                <option value="documento">------Seleccione-------</option>
+                <option value="documento">Cedula de Ciudadania</option>
+                <option value="documento">Cedula de Extranjeria</option>
+                <option value="documento">Tarjeta de identidad</option>
+                <option value="documento">NIT</option>
 
-    <label for="">Fecha de Nacimiento</label><br><br>
-    <input type="date" name="" id=""><br><br>
+            </select><br><br>
+        </div>
+        <div class="numero"> <label for="">Numero de documento</label><br><br>
+            <input type="number"><br><br>
+        </div>
 
-    <label for="">Foto de perfil</label><br><br>
-    <input type="file" name="" id=""><br><br>
+        <div class="correo"> <label for="">Correo Electronico</label><br><br>
+            <input type="email"><br><br>
+        </div>
 
-   
+        <div class="fecha"> <label for="">Fecha de Nacimiento</label><br><br>
+            <input type="date" name="" id=""><br><br>
+        </div>
 
-    
+        <div class="foto"> <label for="">Foto de perfil</label><br><br>
+            <input type="file" name="" id=""><br><br>
+        </div>
 
-   
+        <div class="contraseña"><label for="">Contraseña</label><br><br>
+            <input type="password" name="" id=""><br><br>
+        </div>
+
+        <div class="confirmar"><label for="">Confirmar Contraseña</label><br><br>
+            <input placeholder="confirmar contraseña" type="password" name="" id=""><br><br>
+
+            <button id="e">REGISTRAR</button>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
 
 
 

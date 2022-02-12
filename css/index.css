@@ -1,0 +1,28 @@
+.contenedor {
+text-align: center;
+color: yellow;
+
+    
+}
+.cedula { 
+    
+    
+}
+.nombres{
+    
+
+   
+}
+.numero{
+    
+    
+}
+body{
+    background-image: url(../prueba.jpg);
+background-size: cover;
+}
+#e {
+    background-color: lightgreen;
+    border-radius: 30px;
+    
+}
